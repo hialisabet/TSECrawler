@@ -1,0 +1,30 @@
+# TSEData/TSEData.py: 9
+# TSEData/helper.py: 10
+# crawler-event.py: 7
+# crawler-lvl1.py: 8
+# crawler-lvl2.py: 9
+# update_index.py: 6
+PyYAML == 5.3.1
+
+# TSEData/TSEData.py: 4
+beautifulsoup4 == 4.9.0
+
+# TSEData/TSEData.py: 5
+hazm == 0.7.0
+
+# TSEData/TSEData.py: 6
+# update_index.py: 4
+numpy == 1.18.1
+
+# TSEData/TSEData.py: 7
+# crawler-lvl1.py: 6
+# crawler-lvl2.py: 7
+# update_index.py: 5
+pandas == 1.0.3
+
+# TSEData/TSEData.py: 8
+# TSEData/helper.py: 9
+# crawler-event.py: 6
+# crawler-lvl1.py: 7
+# crawler-lvl2.py: 8
+requests == 2.23.0

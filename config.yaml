@@ -1,0 +1,33 @@
+update_index:
+  path: './Data/'
+  file_name: 'index_list.csv'
+  log_level: 'warning'
+crawler_lvl1:
+  path: './Data/lvl1/'
+  max_workers: 100
+  use_cdn: true
+  verbose: true
+  print_on_stdout: true
+  log_level: 'warning'
+crawler_lvl2:
+  path: './Data/lvl2/'
+  max_workers: 5
+  use_cdn: true
+  verbose: true
+  print_on_stdout: true
+  log_level: 'warning'
+crawler_event:
+  path: './Data/event/'
+  use_cdn: true
+  verbose: true
+  print_on_stdout: true
+  log_level: 'warning'
+  interval: 5
+general:
+  log_path: './logs/'
+  log_format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+request:
+  req_retry: 6
+  req_retry_delay: 0.1
+  req_timeout: 10
+  cdn_list: ['','cdn.', 'cdn3.', 'cdn4.', 'cdn5.']
